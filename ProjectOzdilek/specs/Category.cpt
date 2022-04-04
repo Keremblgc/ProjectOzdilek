@@ -1,0 +1,19 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+# Kadın butonuna tıklanır
+* "2" saniye kadar bekle
+*"//android.widget.RelativeLayout[@index=1]" xpath'li elemente tıkla
+
+#Pantolon seçilir
+*"//android.widget.TextView[@text='Pantolon']" xpath'li elemente tıkla
+*"4" saniye kadar bekle
+
+#Çift scroll ve rastgele ürün ekleme
+*sayfa boyunca scroll et
+*"2" saniye kadar bekle
+*sayfa boyunca scroll et
+*"//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" xpath'te bulunan sayfada görünen tüm ürünleri bul ve rastgele bir ürüne tıkla
+*"5" saniye kadar bekle
+*"com.ozdilek.ozdilekteyim:id/imgFav" Ürün Sayfası Kontrol
+*"com.ozdilek.ozdilekteyim:id/imgFav" elemetin sayfada gorunur olduğunu kontrol et ve tıkla

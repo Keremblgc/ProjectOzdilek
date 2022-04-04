@@ -1,0 +1,14 @@
+Created by testinium on 4.04.2022
+
+This is a concept file with following syntax for each concept.
+#Login işlemleri
+*"2" saniye kadar bekle
+*"com.ozdilek.ozdilekteyim:id/btnLogin" Giriş Sayfası Kontrol
+*"com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "kerem" değerini yaz
+*"com.ozdilek.ozdilekteyim:id/etPassword" İd'li elemente "dsadasdasdasd" değerini yaz
+*"2" saniye kadar bekle
+
+#İki defa geri git
+*"com.ozdilek.ozdilekteyim:id/ivBack" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+*"3" saniye kadar bekle
+*"com.ozdilek.ozdilekteyim:id/ivBack" elemetin sayfada gorunur olduğunu kontrol et ve tıkla

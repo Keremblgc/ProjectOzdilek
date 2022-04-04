@@ -1,0 +1,25 @@
+Created by testinium on 3.04.2022
+
+This is a concept file with following syntax for each concept.
+# Sayfa üzerinde ALIŞVERİŞE BAŞLA butonu kontrol et ve tıkla
+* "5" saniye kadar bekle
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore"Açılış Sayfası Kontrol
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+*"com.ozdilek.ozdilekteyim:id/nav_categories"Uygulamaya giriş yapıldı mı
+* "2" saniye kadar bekle
+
+
+# Sayfa üzerinde Kategoriler butonu kontrol et ve tıkla
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" elemetin sayfada gorunur olduğunu kontrol et ve tıkla
+* "2" saniye kadar bekle
+* "//android.widget.RelativeLayout[@index=1]"Kategori Sayfası Kontrol
+
+
+
+
+
+
+
